@@ -47,8 +47,21 @@ body {
 }
 
 .logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
   font-size: 1.8rem;
   font-weight: bold;
+  color: var(--primary-blue);
+  text-decoration: none;
+}
+
+.logo img {
+  height: 40px;
+  width: auto;
+}
+
+.logo:hover {
   color: var(--primary-blue);
 }
 
